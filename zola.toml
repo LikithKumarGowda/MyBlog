@@ -1,0 +1,30 @@
+base_url = "http://localhost:1111"
+title = "My Blog"
+description = "A personal blog"
+author = "Likith"
+default_language = "en"
+compile_sass = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+minify_html = false
+build_search_index = true
+theme = "anemone"
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"
+
+[extra]
+list_pages = true
+display_author = true
+
+header_nav = [
+  { url = "/", name_en = "/home/" },
+  { url = "/blog", name_en = "/blog/" },
+  { url = "/about", name_en = "/about/" },
+]

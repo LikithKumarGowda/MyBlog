@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Home | {{ config.title }}{% endblock title %}
+
+{% block content %}
+<section class="hero">
+  <h1>Hey, I'm {{ config.author }} 👋</h1>
+  <p>Welcome to my blog. I write about systems programming, Linux, and everything in between.</p>
+  <a href="/blog" class="btn">Read the blog →</a>
+</section>
+
+{% set section = get_section(path="blog/_index.md") %}
+<section class="recent-posts">
+  <h2>Recent Posts</h2>
+  <ul class="post-list">
+    {% for page in section.pages | slice(end=5) %}
+    <li>
+      <span class="post-date">{{ page.date | date(format="%b %d, %Y") }}</span>
+      <a href="{{ page.permalink }}">{{ page.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endblock content %}
