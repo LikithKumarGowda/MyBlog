@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>08&amp;1947</title>
-    <link href="https://LikithKumarGowda.github.io/atom.xml" rel="self"/>
-    <link href="https:&#x2F;&#x2F;LikithKumarGowda.github.io"/>
-    <updated>2026-06-28T16:58:57+0000</updated>
-    <id>https:&#x2F;&#x2F;LikithKumarGowda.github.io</id>
+    <link href="https://LikithKumarGowda.github.io/MyBlog/atom.xml" rel="self"/>
+    <link href="https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;MyBlog"/>
+    <updated>2026-06-28T17:01:11+0000</updated>
+    <id>https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;MyBlog</id>
 
     
     
@@ -19,9 +19,9 @@
             
             <entry>
                 <title>Hello World</title>
-                <link href="https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;blog&#x2F;first-post&#x2F;"/>
+                <link href="https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;MyBlog&#x2F;blog&#x2F;first-post&#x2F;"/>
                 <updated>2026-06-28T00:00:00+0000</updated>
-                <id>https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;blog&#x2F;first-post&#x2F;</id>
+                <id>https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;MyBlog&#x2F;blog&#x2F;first-post&#x2F;</id>
                 <content type="html"></content>
             </entry>
             
