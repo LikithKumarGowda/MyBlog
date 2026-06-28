@@ -1,5 +1,5 @@
 base_url = "https://LikithKumarGowda.github.io/MyBlog"
-title = "My Blog"
+title = "08&1947"
 description = "A personal blog"
 author = "Likith"
 default_language = "en"
@@ -22,9 +22,10 @@ theme = "catppuccin-mocha"
 [extra]
 list_pages = true
 display_author = true
+favicon = "sasuke_sharingan.jpg"
 
 header_nav = [
   { url = "/", name_en = "/home/" },
-  { url = "/blog/", name_en = "/blog/" },
-  { url = "/about/", name_en = "/about/" },
+  { url = "/blog/", name_en = "/blog" },
+  { url = "/about/", name_en = "/about" },
 ]
