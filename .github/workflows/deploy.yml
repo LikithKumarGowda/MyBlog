@@ -19,7 +19,7 @@ jobs:
           tool: zola@0.22.1
 
       - name: Build site
-        run: zola build --base-url https://LikithKumarGowda.github.io/MyBlog
+        run: zola build --base-url https://LikithKumarGowda.github.io
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
