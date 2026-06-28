@@ -3,12 +3,14 @@
     <title>My Blog</title>
     <link href="https://LikithKumarGowda.github.io/MyBlog/atom.xml" rel="self"/>
     <link href="https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;MyBlog"/>
-    <updated>2026-06-28T11:11:56+0000</updated>
+    <updated>2026-06-28T11:24:40+0000</updated>
     <id>https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;MyBlog</id>
 
     
     
     
+    
+        
     
     
     
@@ -20,23 +22,7 @@
                 <link href="https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;MyBlog&#x2F;blog&#x2F;first-post&#x2F;"/>
                 <updated>2026-06-28T00:00:00+0000</updated>
                 <id>https:&#x2F;&#x2F;LikithKumarGowda.github.io&#x2F;MyBlog&#x2F;blog&#x2F;first-post&#x2F;</id>
-                <content type="html">&amp;lt;p&amp;gt;Welcome to my blog! This is built with &amp;lt;strong&amp;gt;Zola&amp;lt;&amp;#x2F;strong&amp;gt; — a fast static site generator written in Rust.&amp;lt;&amp;#x2F;p&amp;gt;
-&amp;lt;h2 id=&amp;quot;why-zola&amp;quot;&amp;gt;Why Zola?&amp;lt;&amp;#x2F;h2&amp;gt;
-&amp;lt;ul&amp;gt;
-&amp;lt;li&amp;gt;Single binary, no dependencies&amp;lt;&amp;#x2F;li&amp;gt;
-&amp;lt;li&amp;gt;Blazing fast builds&amp;lt;&amp;#x2F;li&amp;gt;
-&amp;lt;li&amp;gt;Tera templating (feels like Jinja2)&amp;lt;&amp;#x2F;li&amp;gt;
-&amp;lt;li&amp;gt;Built-in Sass compilation&amp;lt;&amp;#x2F;li&amp;gt;
-&amp;lt;&amp;#x2F;ul&amp;gt;
-&amp;lt;h2 id=&amp;quot;code-example&amp;quot;&amp;gt;Code example&amp;lt;&amp;#x2F;h2&amp;gt;
-&amp;lt;pre class=&amp;quot;giallo&amp;quot; style=&amp;quot;color: #CDD6F4; background-color: #1E1E2E;&amp;quot;&amp;gt;&amp;lt;code data-lang=&amp;quot;c&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #F9E2AF;&amp;quot;&amp;gt;#include&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #A6E3A1;&amp;quot;&amp;gt; &amp;amp;lt;stdio.h&amp;amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
-&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
-&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #CBA6F7;&amp;quot;&amp;gt;int&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #89B4FA;font-style: italic;&amp;quot;&amp;gt; main&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #9399B2;&amp;quot;&amp;gt;() {&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
-&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #89B4FA;font-style: italic;&amp;quot;&amp;gt;    printf&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #9399B2;&amp;quot;&amp;gt;(&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #A6E3A1;&amp;quot;&amp;gt;&amp;amp;quot;Hello, World!&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #F5C2E7;&amp;quot;&amp;gt;\n&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #A6E3A1;&amp;quot;&amp;gt;&amp;amp;quot;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #9399B2;&amp;quot;&amp;gt;);&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
-&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #CBA6F7;&amp;quot;&amp;gt;    return&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #FAB387;&amp;quot;&amp;gt; 0&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color: #9399B2;&amp;quot;&amp;gt;;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;
-&amp;lt;span class=&amp;quot;giallo-l&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;color: #9399B2;&amp;quot;&amp;gt;}&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;
-&amp;lt;p&amp;gt;More posts coming soon.&amp;lt;&amp;#x2F;p&amp;gt;
-</content>
+                <content type="html"></content>
             </entry>
             
         
