@@ -212,12 +212,33 @@ header {
   }
 }
 
-/* ── Footer ── */
-footer {
-  margin-top: 4rem;
-  padding: 2rem 0;
-  border-top: 1px solid $border;
-  color: $subtle;
-  font-size: 0.85rem;
+
+/* ── Footer Icons ── */
+#footer {
   text-align: center;
+  padding: 1rem 0;
+  font-size: 0.85rem;
+}
+
+#contact-icons {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.5rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#contact-icons a {
+  color: var(--fg);
+  transition: color 0.2s ease;
+}
+
+#contact-icons a:hover {
+  color: var(--accent);
 }
