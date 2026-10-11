@@ -7,7 +7,7 @@
         
         <link rel="alternate" type="application/rss+xml" title="RSS" href="https://LikithKumarGowda.github.io/MyBlog/rss.xml">
         
-        <title>08&amp;1947 | Hello World</title>
+        <title>08&amp;1947 | Machine Learning Basics</title>
 
         <link rel="preload" href="https://LikithKumarGowda.github.io/MyBlog/css/style.css" as="style">
         <link rel="stylesheet" href="https://raw.githack.com/Speyll/suCSS/main/reset-min.css" crossorigin="anonymous">
@@ -58,28 +58,88 @@
 <article class="post">
     <header class="post-header">
         
-        <time datetime="2026-06-28">Published on:
-            <span class="accent-data">2026-06-28</span>
+        <time datetime="2026-07-27">Published on:
+            <span class="accent-data">2026-07-27</span>
         </time>
         
 
         
 
-        <h1>Hello World</h1>
+        <h1>Machine Learning Basics</h1>
     </header>
 
 
 
     <div class="post-content">
-        
+        <h3 id="what-is-machine-learning">What is Machine Learning?</h3>
+<p>Machine learning is the field of study that uses data and algorithms to build models that can make predictions or decisions without being explicitly programmed for each scenario.</p>
+<p>In traditional programming, I write the rules and the computer applies them to data to produce answers. In machine learning, I give the computer the data and the answers, and it figures out the rules on its own.</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;"><code data-lang="plain"><span class="giallo-l"><span>Traditional programming:   Rules + Data    --&gt;  Answers</span></span>
+<span class="giallo-l"><span>Machine learning:          Data + Answers  --&gt;  Rules (the model)</span></span></code></pre>
+<p>For example, if we try writing rules to detect spam (Eg: "if the email contains the word <em>lottery</em> then mark it as spam") it won't work for long, because spammers change their wording and approach. With machine learning, I provide thousands of emails already labelled spam or not spam, and it would learn the patterns itself.</p>
+<h3 id="how-does-it-work">How does it work?</h3>
+<p>A machine learning system identifies patterns in historical data and uses those patterns to make reliable predictions on new inputs.</p>
+<p>The basic loop looks like this:</p>
+<ol>
+<li><strong>Collect data:</strong> For ex, house size and the prices they were sold for.</li>
+<li><strong>Train a model:</strong> The algorithm adjusts the model's internal parameters so its predictions get closer to the known answers.</li>
+<li><strong>Evaluate:</strong> Test the model on data it has never seen.</li>
+<li><strong>Predict:</strong> Use the trained model on new inputs. This step is called <em>inference</em>.</li>
+</ol>
+<p>A few terms that come up everywhere:</p>
+<ul>
+<li><strong>Features:</strong> the inputs the model looks at (house size, number of rooms).</li>
+<li><strong>Label / target:</strong> the answer we want the model to predict (price).</li>
+<li><strong>Model:</strong> the function that maps features to a prediction.</li>
+<li><strong>Training:</strong> the process of tuning the model using data.</li>
+</ul>
+<h3 id="types-of-machine-learning">Types of machine learning</h3>
+<table><thead><tr><th>Type</th><th>Data it learns from</th></tr></thead><tbody>
+<tr><td>Supervised learning</td><td>Inputs with known labels</td></tr>
+<tr><td>Unsupervised learning</td><td>Inputs with no labels</td></tr>
+<tr><td>Reinforcement learning</td><td>Rewards and penalties from trial and error</td></tr>
+</tbody></table>
+<p>Supervised learning is where most people start, and it splits into two common problems:</p>
+<ul>
+<li><strong>Regression:</strong> predict a number (price, temperature).</li>
+<li><strong>Classification:</strong> predict a category (spam or not spam, cat or dog).</li>
+</ul>
+<h3 id="how-do-we-know-we-are-on-the-right-path">How do we know we are on the right path?</h3>
+<p>We measure success by checking whether performance on a clearly defined task improves with experience. A common way to state this: a program learns from experience <strong>E</strong> with respect to a task <strong>T</strong> and a performance measure <strong>P</strong>, if its performance on T, as measured by P, improves with E.</p>
+<p>Take training a machine to play chess:</p>
+<p>a. <strong>Task (T):</strong> Playing chess games, for example choosing moves that lead to a win.</p>
+<p>b. <strong>Performance (P):</strong> How well it does, measured for example by its win rate against human players or other programs.</p>
+<p>c. <strong>Experience (E):</strong> The games it learns from, such as historical games, board positions and outcomes, or games it plays against itself.</p>
+<p>If the win rate keeps going up as the machine sees more games, it is learning.</p>
+<h3 id="training-vs-testing">Training vs. testing</h3>
+<p>A model can score perfectly on data it has already seen simply by memorizing it. That tells us nothing about how it will behave on new data. So we split the data:</p>
+<ul>
+<li><strong>Training set:</strong> used to teach the model.</li>
+<li><strong>Test set:</strong> kept hidden until the end, used only to measure real performance.</li>
+</ul>
+<p>This leads to the two classic problems:</p>
+<ul>
+<li><strong>Underfitting:</strong> the model is too simple and performs poorly even on the training data.</li>
+<li><strong>Overfitting:</strong> the model memorizes the training data, including its noise, and performs poorly on new data.</li>
+</ul>
+<p>The goal is a model that <strong>generalizes</strong>: it does well on data it has never seen.</p>
+<h3 id="summary">Summary</h3>
+<ul>
+<li>Machine learning builds models that learn patterns from data instead of following hand-written rules.</li>
+<li>Training tunes the model on known examples. And we get the model prediction on new untrained data(Inference).</li>
+<li>Progress is measured with a defined task(T), a performance measure(P), and experience(E).</li>
+<li>We always evaluate the model on unseen data that hasn't been trained on, to catch overfitting.</li>
+</ul>
+<p>Next up: <strong>Linear Regression</strong>, the simplest supervised learning algorithm, and a good first model to build.</p>
+
     </div>
 
     
     <footer class="post-tags">
         
-        <a href="/tags/meta" class="tag">#meta</a>
+        <a href="/tags/machinelearning" class="tag">#machineLearning</a>
         
-        <a href="/tags/linux" class="tag">#linux</a>
+        <a href="/tags/basics" class="tag">#basics</a>
         
     </footer>
     
